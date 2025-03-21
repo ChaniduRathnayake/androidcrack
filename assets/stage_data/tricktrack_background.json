@@ -1,0 +1,19 @@
+{
+	"parallax_layers": [
+
+		{
+			"zorder":1,
+			"continuous_parallax":true,
+			"texture":"arena-bg",
+			"speed_x":2.0,
+			"scale_x":1.0,
+			"scale_y":1.0,
+			"position_offset_y": 0.0,
+			"position_offset_x":-200.0,
+			"disable_fade":true,
+			"disable_flip":false,
+			"enable_flash_effect":true,
+			"flash_particle_amount":30
+		}
+    ]
+}

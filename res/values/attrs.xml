@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="adSize" format="string" />
+    <attr name="adSizes" format="string" />
+    <attr name="adUnitId" format="string" />
+    <attr name="ad_marker_color" format="color" />
+    <attr name="ad_marker_width" format="dimension" />
+    <attr name="alpha" format="float" />
+    <attr name="animation" format="string" />
+    <attr name="auto_show" format="boolean" />
+    <attr name="backgroundColor" format="color" />
+    <attr name="bannerType" format="string" />
+    <attr name="bar_height" format="dimension" />
+    <attr name="buffered_color" format="color" />
+    <attr name="buttonSize" format="reference">
+        <enum name="icon_only" value="2" />
+        <enum name="standard" value="0" />
+        <enum name="wide" value="1" />
+    </attr>
+    <attr name="circleCrop" format="boolean" />
+    <attr name="colorScheme" format="reference">
+        <enum name="auto" value="2" />
+        <enum name="dark" value="0" />
+        <enum name="light" value="1" />
+    </attr>
+    <attr name="controller_layout_id" format="reference" />
+    <attr name="coordinatorLayoutStyle" format="reference" />
+    <attr name="default_artwork" format="reference" />
+    <attr name="deliverOnlyText" format="boolean" />
+    <attr name="fastScrollEnabled" format="boolean" />
+    <attr name="fastScrollHorizontalThumbDrawable" format="reference" />
+    <attr name="fastScrollHorizontalTrackDrawable" format="reference" />
+    <attr name="fastScrollVerticalThumbDrawable" format="reference" />
+    <attr name="fastScrollVerticalTrackDrawable" format="reference" />
+    <attr name="fastforward_increment" format="integer" />
+    <attr name="font" format="reference" />
+    <attr name="fontProviderAuthority" format="string" />
+    <attr name="fontProviderCerts" format="reference" />
+    <attr name="fontProviderFetchStrategy">
+        <enum name="async" value="1" />
+        <enum name="blocking" value="0" />
+    </attr>
+    <attr name="fontProviderFetchTimeout" format="integer">
+        <enum name="forever" value="-1" />
+    </attr>
+    <attr name="fontProviderPackage" format="string" />
+    <attr name="fontProviderQuery" format="string" />
+    <attr name="fontStyle">
+        <enum name="italic" value="1" />
+        <enum name="normal" value="0" />
+    </attr>
+    <attr name="fontVariationSettings" format="string" />
+    <attr name="fontWeight" format="integer" />
+    <attr name="hide_during_ads" format="boolean" />
+    <attr name="hide_on_touch" format="boolean" />
+    <attr name="imageAspectRatio" format="float" />
+    <attr name="imageAspectRatioAdjust">
+        <enum name="adjust_height" value="2" />
+        <enum name="adjust_width" value="1" />
+        <enum name="none" value="0" />
+    </attr>
+    <attr name="isTestMode" format="boolean" />
+    <attr name="keep_content_on_player_reset" format="boolean" />
+    <attr name="keylines" format="reference" />
+    <attr name="layoutManager" format="string" />
+    <attr name="layout_anchor" format="reference" />
+    <attr name="layout_anchorGravity">
+        <flag name="bottom" value="0x00000050" />
+        <flag name="center" value="0x00000011" />
+        <flag name="center_horizontal" value="0x00000001" />
+        <flag name="center_vertical" value="0x00000010" />
+        <flag name="clip_horizontal" value="0x00000008" />
+        <flag name="clip_vertical" value="0x00000080" />
+        <flag name="end" value="0x00800005" />
+        <flag name="fill" value="0x00000077" />
+        <flag name="fill_horizontal" value="0x00000007" />
+        <flag name="fill_vertical" value="0x00000070" />
+        <flag name="left" value="0x00000003" />
+        <flag name="right" value="0x00000005" />
+        <flag name="start" value="0x00800003" />
+        <flag name="top" value="0x00000030" />
+    </attr>
+    <attr name="layout_behavior" format="string" />
+    <attr name="layout_dodgeInsetEdges">
+        <flag name="all" value="0x00000077" />
+        <flag name="bottom" value="0x00000050" />
+        <flag name="end" value="0x00800005" />
+        <flag name="left" value="0x00000003" />
+        <flag name="none" value="0x00000000" />
+        <flag name="right" value="0x00000005" />
+        <flag name="start" value="0x00800003" />
+        <flag name="top" value="0x00000030" />
+    </attr>
+    <attr name="layout_insetEdge">
+        <enum name="bottom" value="80" />
+        <enum name="end" value="8388613" />
+        <enum name="left" value="3" />
+        <enum name="none" value="0" />
+        <enum name="right" value="5" />
+        <enum name="start" value="8388611" />
+        <enum name="top" value="48" />
+    </attr>
+    <attr name="layout_keyline" format="integer" />
+    <attr name="mraid" format="boolean" />
+    <attr name="placement_type" format="string" />
+    <attr name="played_ad_marker_color" format="color" />
+    <attr name="played_color" format="color" />
+    <attr name="player_layout_id" format="reference" />
+    <attr name="repeat_toggle_modes">
+        <flag name="all" value="0x00000002" />
+        <flag name="none" value="0x00000000" />
+        <flag name="one" value="0x00000001" />
+    </attr>
+    <attr name="resize_mode">
+        <enum name="fill" value="3" />
+        <enum name="fit" value="0" />
+        <enum name="fixed_height" value="2" />
+        <enum name="fixed_width" value="1" />
+        <enum name="zoom" value="4" />
+    </attr>
+    <attr name="reverseLayout" format="boolean" />
+    <attr name="rewind_increment" format="integer" />
+    <attr name="scopeUris" format="reference|string" />
+    <attr name="scrubber_color" format="color" />
+    <attr name="scrubber_disabled_size" format="dimension" />
+    <attr name="scrubber_dragged_size" format="dimension" />
+    <attr name="scrubber_drawable" format="reference" />
+    <attr name="scrubber_enabled_size" format="dimension" />
+    <attr name="secondsToRefresh" format="integer" />
+    <attr name="show_buffering" format="boolean" />
+    <attr name="show_shuffle_button" format="boolean" />
+    <attr name="show_timeout" format="integer" />
+    <attr name="shutter_background_color" format="color" />
+    <attr name="spanCount" format="integer" />
+    <attr name="stackFromEnd" format="boolean" />
+    <attr name="statusBarBackground" format="reference|color" />
+    <attr name="surface_type">
+        <enum name="none" value="0" />
+        <enum name="surface_view" value="1" />
+        <enum name="texture_view" value="2" />
+    </attr>
+    <attr name="textColor" format="color" />
+    <attr name="textSize" format="integer" />
+    <attr name="touch_target_height" format="dimension" />
+    <attr name="ttcIndex" format="integer" />
+    <attr name="unplayed_color" format="color" />
+    <attr name="use_artwork" format="boolean" />
+    <attr name="use_controller" format="boolean" />
+</resources>

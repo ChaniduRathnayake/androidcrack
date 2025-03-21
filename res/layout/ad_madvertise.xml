@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="bottom|center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:mad="http://schemas.android.com/apk/res-auto">
+    <de.madvertise.android.sdk.MadvertiseView android:id="@id/madad" android:layout_width="fill_parent" android:layout_height="fill_parent" mad:animation="none" mad:bannerType="portrait,landscape,mma" mad:isTestMode="false" mad:mraid="false" mad:placement_type="inline" mad:textColor="#ffffffff" />
+</RelativeLayout>

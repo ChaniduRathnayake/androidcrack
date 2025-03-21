@@ -1,0 +1,114 @@
+.class public final Lcom/google/android/gms/internal/ads/zzhw;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Lcom/google/android/gms/internal/ads/zzig;
+
+
+# instance fields
+.field public final length:I
+
+.field private final zzaan:J
+
+.field public final zzagt:[I
+
+.field public final zzagu:[J
+
+.field public final zzagv:[J
+
+.field public final zzagw:[J
+
+
+# direct methods
+.method public constructor <init>([I[J[J[J)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/google/android/gms/internal/ads/zzhw;->zzagt:[I
+
+    iput-object p2, p0, Lcom/google/android/gms/internal/ads/zzhw;->zzagu:[J
+
+    iput-object p3, p0, Lcom/google/android/gms/internal/ads/zzhw;->zzagv:[J
+
+    iput-object p4, p0, Lcom/google/android/gms/internal/ads/zzhw;->zzagw:[J
+
+    array-length p1, p1
+
+    iput p1, p0, Lcom/google/android/gms/internal/ads/zzhw;->length:I
+
+    iget p1, p0, Lcom/google/android/gms/internal/ads/zzhw;->length:I
+
+    if-lez p1, :cond_0
+
+    iget p1, p0, Lcom/google/android/gms/internal/ads/zzhw;->length:I
+
+    add-int/lit8 p1, p1, -0x1
+
+    aget-wide p1, p3, p1
+
+    iget p3, p0, Lcom/google/android/gms/internal/ads/zzhw;->length:I
+
+    add-int/lit8 p3, p3, -0x1
+
+    aget-wide p3, p4, p3
+
+    add-long/2addr p1, p3
+
+    iput-wide p1, p0, Lcom/google/android/gms/internal/ads/zzhw;->zzaan:J
+
+    return-void
+
+    :cond_0
+    const-wide/16 p1, 0x0
+
+    iput-wide p1, p0, Lcom/google/android/gms/internal/ads/zzhw;->zzaan:J
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final getDurationUs()J
+    .locals 2
+
+    iget-wide v0, p0, Lcom/google/android/gms/internal/ads/zzhw;->zzaan:J
+
+    return-wide v0
+.end method
+
+.method public final zzdw()Z
+    .locals 1
+
+    const/4 v0, 0x1
+
+    return v0
+.end method
+
+.method public final zzq(J)I
+    .locals 2
+
+    iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzhw;->zzagw:[J
+
+    const/4 v1, 0x1
+
+    invoke-static {v0, p1, p2, v1, v1}, Lcom/google/android/gms/internal/ads/zzqe;->zza([JJZZ)I
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public final zzr(J)J
+    .locals 1
+
+    iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzhw;->zzagu:[J
+
+    invoke-virtual {p0, p1, p2}, Lcom/google/android/gms/internal/ads/zzhw;->zzq(J)I
+
+    move-result p1
+
+    aget-wide p1, v0, p1
+
+    return-wide p1
+.end method

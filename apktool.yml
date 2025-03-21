@@ -1,0 +1,45 @@
+version: 2.11.1
+apkFileName: hkr.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: null
+sdkInfo:
+  minSdkVersion: 17
+  targetSdkVersion: 28
+packageInfo:
+  forcedPackageId: 127
+  renameManifestPackage: null
+versionInfo:
+  versionCode: 239
+  versionName: 1.40.0
+sharedLibrary: false
+sparseResources: false
+compactEntries: false
+doNotCompress:
+- arsc
+- jpg
+- ogg
+- png
+- androidsupportmultidexversion.txt
+- assets/config.bin
+- assets/translations/brazilian-portuguese-lite.po
+- assets/translations/chinese-lite.po
+- assets/translations/chinese-traditional-lite.po
+- assets/translations/dutch-lite.po
+- assets/translations/english-lite.po
+- assets/translations/finnish-lite.po
+- assets/translations/french-lite.po
+- assets/translations/german-lite.po
+- assets/translations/hindi-lite.po
+- assets/translations/italian-lite.po
+- assets/translations/japanese-lite.po
+- assets/translations/korean-lite.po
+- assets/translations/malay-lite.po
+- assets/translations/polish-lite.po
+- assets/translations/russian-lite.po
+- assets/translations/spanish-lite.po
+- assets/translations/thai-lite.po
+- assets/translations/turkish-lite.po
+- publicsuffixes.gz
